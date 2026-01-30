@@ -4,4 +4,4 @@ Sadly that's not us.
 
 Proven by this script
 
-Q.E.D
+QED

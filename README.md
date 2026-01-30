@@ -3,4 +3,5 @@ If the multiverse exists, there might be a universe in which BogoSort is the mos
 Sadly that's not us.
 
 Proven by this script
+
 Q.E.D

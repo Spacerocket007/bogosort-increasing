@@ -86,7 +86,6 @@ public class BogoSortIncreasing {
     }
 
     public static void main(String[] args) {
-        init(args);
 
         // Command input thread
         Thread inputThread = new Thread(() -> {
@@ -149,6 +148,7 @@ public class BogoSortIncreasing {
             }
         });
 
+        init(args);
         inputThread.start();
         sortingThread.start();
     }

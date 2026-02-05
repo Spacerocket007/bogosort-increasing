@@ -14,11 +14,11 @@ Q.E.D.
 Simple BogoSort script which raises the size of the array by one each time an array is sorted successfully. 
 
 ### Usage
-Compile and run
+**Compile and run**
 
 `javac BogoSortIncreasing.java`, `java BogoSortIncreasing`
 
-Programm argumeters:
+**Programm argumeter:**
 
 `java BogoSortIncreasing on`: Starts Programm with printing enabled 
 
@@ -26,7 +26,7 @@ Programm argumeters:
 
 `java BogoSortIncreasing`: Starts Programm with printing disabled
 
-Commands:
+**Commands**
 
 `on`: Turns on printing
 
@@ -41,10 +41,10 @@ Commands:
 
 Optimised code in a faster language.
 
-Makes (heavy) use of multi-threading.
+Makes (heavy... HEAVY) use of multi-threading.
 
 ### Usage
-Compile and run
+**Compile and run**
 
 `g++ BogosortIncreasing.cpp -o BogoSortIncreasing`, `./BogoSortIncreasing`
 

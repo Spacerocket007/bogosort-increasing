@@ -39,23 +39,16 @@ int main() {
     string cmd;
     int arrSize = 2; // Start with 2 elements
 
-    cout << "Commands: shuffle | on | off | toggle | exit \n";
+    cout << "Type in: shuffle to start \n";
+
 
     while (running) {
         if (!getline(cin, cmd)) break;
-        if (cmd == "on") {
-            printEnabled = true;
-            cout << "Printing enabled.\n";
-        } else if (cmd == "off") {
-            printEnabled = false;
-            cout << "Printing disabled.\n";
-        } else if (cmd == "toggle") {
-            printEnabled = !printEnabled;
-            cout << "Printing " << (printEnabled ? "enabled" : "disabled") << ".\n";
-        } else if (cmd == "exit" || cmd == "quit") {
+        if (cmd == "exit" || cmd == "quit") {
             running = false;
             break;
-        }else if (cmd == "shuffle") {
+        }
+        if (cmd == "shuffle") {
             while (running) {
                 vector<int> base(arrSize);
                 for (int i = 0; i < arrSize; ++i) base[i] = i + 1;
